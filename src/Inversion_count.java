@@ -8,7 +8,7 @@ public class Inversion_count {
 
     public void count_inversion() throws IOException {
         Input input = new Input();
-        ArrayList arrList = input.readFile();
+        ArrayList arrList = input.readInversion();
         Inversion result = sort_and_count(arrList);
         print(result);
     }
